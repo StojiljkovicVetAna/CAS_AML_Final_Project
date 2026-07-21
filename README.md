@@ -164,6 +164,14 @@ Production start command, for example on Render:
 uvicorn final_project.backend.app:app --host 0.0.0.0 --port $PORT
 ```
 
+Render settings:
+
+```text
+Build command: pip install -r requirements.txt
+Start command: uvicorn final_project.backend.app:app --host 0.0.0.0 --port $PORT
+Python version: controlled by runtime.txt
+```
+
 Main endpoints:
 
 ```text
