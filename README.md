@@ -63,7 +63,8 @@ data/evaluation/                final aggregated evaluation summaries
 
 ## Setup
 
-Python 3.10 or newer is recommended.
+Python 3.10 to 3.13 is supported. The repository includes a `.python-version`
+file for deployment platforms that read it.
 
 ```bash
 python3 -m venv .venv
@@ -169,7 +170,14 @@ Render settings:
 ```text
 Build command: pip install -r requirements.txt
 Start command: uvicorn final_project.backend.app:app --host 0.0.0.0 --port $PORT
-Python version: controlled by runtime.txt
+Python version: controlled by .python-version
+```
+
+If the deployment platform still selects a newer unsupported Python version,
+set an explicit environment variable:
+
+```text
+PYTHON_VERSION=3.11.9
 ```
 
 Main endpoints:

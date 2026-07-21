@@ -7,7 +7,7 @@ name = "final-project-rag"
 version = "0.1.0"
 description = "Scientific-paper RAG backend for dog behaviour question answering"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"
 dependencies = [
   "PyMuPDF>=1.24,<2",
   "requests>=2.31,<3",
