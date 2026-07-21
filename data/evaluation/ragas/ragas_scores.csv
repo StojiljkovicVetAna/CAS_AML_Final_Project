@@ -1,0 +1,29 @@
+strategy,question_id,question,faithfulness,llm_context_precision_with_reference,context_recall
+classic,1,"When dogs look at a human face, which part of the face do they focus on the most?",0.5,0.9999999999833333,0.23809523809523808
+reranked,1,"When dogs look at a human face, which part of the face do they focus on the most?",0.8333333333333334,0.9666666666473333,0.23809523809523808
+hyde,1,"When dogs look at a human face, which part of the face do they focus on the most?",0.5,0.9999999999833333,0.45
+multi_query,1,"When dogs look at a human face, which part of the face do they focus on the most?",0.5,0.9999999999833333,0.38095238095238093
+classic,2,"What is the C-BARQ questionnaire, and how is it used to assess dog behavior?",0.9310344827586207,0.9666666666473333,0.47368421052631576
+reranked,2,"What is the C-BARQ questionnaire, and how is it used to assess dog behavior?",0.9545454545454546,0.9999999999833333,0.47368421052631576
+hyde,2,"What is the C-BARQ questionnaire, and how is it used to assess dog behavior?",1.0,0.9666666666473333,0.2631578947368421
+multi_query,2,"What is the C-BARQ questionnaire, and how is it used to assess dog behavior?",0.9791666666666666,0.9999999999833333,0.42105263157894735
+classic,3,What factors can influence behavioral development in dogs?,0.9130434782608695,0.9999999999833333,0.8823529411764706
+reranked,3,What factors can influence behavioral development in dogs?,0.6666666666666666,0.9999999999833333,0.8888888888888888
+hyde,3,What factors can influence behavioral development in dogs?,0.9428571428571428,0.9999999999833333,0.8823529411764706
+multi_query,3,What factors can influence behavioral development in dogs?,0.78125,0.9999999999833333,0.4375
+classic,4,"What is eye-tracking, and how can it help us understand dogs better?",0.85,0.9999999999833333,0.5
+reranked,4,"What is eye-tracking, and how can it help us understand dogs better?",1.0,0.9999999999833333,0.5
+hyde,4,"What is eye-tracking, and how can it help us understand dogs better?",1.0,0.9999999999833333,0.625
+multi_query,4,"What is eye-tracking, and how can it help us understand dogs better?",0.9,0.9999999999833333,0.20833333333333334
+classic,5,"How do dogs show their emotions, and what role do facial expressions play in how they communicate?",0.88,0.9999999999833333,0.2857142857142857
+reranked,5,"How do dogs show their emotions, and what role do facial expressions play in how they communicate?",1.0,0.9999999999833333,0.19047619047619047
+hyde,5,"How do dogs show their emotions, and what role do facial expressions play in how they communicate?",1.0,0.9999999999833333,0.3
+multi_query,5,"How do dogs show their emotions, and what role do facial expressions play in how they communicate?",0.8620689655172413,0.9999999999833333,0.23809523809523808
+classic,6,What training methods work best for detection dogs?,0.9545454545454546,0.16666666665,0.14285714285714285
+reranked,6,What training methods work best for detection dogs?,0.8571428571428571,0.0,0.0
+hyde,6,What training methods work best for detection dogs?,1.0,0.0,0.0
+multi_query,6,What training methods work best for detection dogs?,0.96,0.0,0.05263157894736842
+classic,7,What do we need to better understand how AI recognizes emotions in dogs?,0.75,0.81666666664625,0.36363636363636365
+reranked,7,What do we need to better understand how AI recognizes emotions in dogs?,1.0,0.9266666666481332,0.3333333333333333
+hyde,7,What do we need to better understand how AI recognizes emotions in dogs?,0.7692307692307693,0.999999999975,0.375
+multi_query,7,What do we need to better understand how AI recognizes emotions in dogs?,0.9,0.7555555555303703,0.375

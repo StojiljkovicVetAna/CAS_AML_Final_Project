@@ -1,0 +1,5 @@
+strategy,custom_n_questions,custom_mean_retrieval_recall,custom_mean_retrieval_precision,custom_mean_mrr,custom_mean_matched_source_count,custom_second_retrieval_rate,judge_n_questions,judge_mean_answer_correctness,judge_mean_faithfulness,judge_mean_answer_relevance,judge_mean_context_usefulness,judge_mean_completeness,judge_mean_overall_quality,ragas_n_questions,ragas_n_valid_faithfulness,ragas_mean_faithfulness,ragas_n_valid_llm_context_precision_with_reference,ragas_mean_llm_context_precision_with_reference,ragas_n_valid_context_recall,ragas_mean_context_recall
+classic,7.0,0.481,0.8167,0.9286,2.5714,0.0,7.0,4.2857,4.0,5.0,4.7143,3.7143,4.1429,7.0,7.0,0.8255,7.0,0.85,7.0,0.4123
+hyde,7.0,0.5095,0.8452,1.0,2.4286,0.0,7.0,4.5714,4.4286,5.0,5.0,4.4286,4.5714,7.0,7.0,0.8874,7.0,0.8524,7.0,0.4136
+multi_query,7.0,0.4714,0.7857,0.8571,2.4286,0.0,7.0,4.2857,4.1429,5.0,4.8571,4.0,4.2857,7.0,7.0,0.8404,7.0,0.8222,7.0,0.3019
+reranked,7.0,0.5286,0.8,0.9286,2.8571,0.0,7.0,4.5714,4.4286,5.0,5.0,4.2857,4.4286,7.0,7.0,0.9017,7.0,0.8419,7.0,0.3749

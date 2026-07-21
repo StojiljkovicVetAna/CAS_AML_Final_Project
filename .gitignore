@@ -1,0 +1,35 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+htmlcov/
+.coverage
+uv.lock
+Procfile
+Notebook.md
+
+# Local/generated corpus artifacts. Raw PDFs and extracted chunks can contain
+# copyrighted paper text and should not be committed.
+input_literature/PDFs/*
+!input_literature/PDFs/.gitkeep
+data/extracted/
+data/chunks/
+data/chroma/
+
+# Keep final summary tables, but exclude row-level evaluation files containing
+# retrieved contexts/chunks.
+data/evaluation_smoke/
+data/evaluation_hyde_reranked/
+data/evaluation/.Rhistory
+data/evaluation/benchmark_questions.json
+data/evaluation/experiment_manifest.json
+data/evaluation/rag_strategy_results.*
+data/evaluation/llm_judge/llm_judge_results.jsonl
+data/evaluation/llm_judge/judge_manifest.json
+data/evaluation/ragas/ragas_dataset.jsonl
+data/evaluation/ragas/ragas_manifest.json

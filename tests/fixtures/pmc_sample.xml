@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article article-type="research-article">
+  <front>
+    <journal-meta><journal-title-group><journal-title>PMC Example Journal</journal-title></journal-title-group></journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmc">PMC123456</article-id>
+      <article-id pub-id-type="pmid">987654</article-id>
+      <article-id pub-id-type="doi">10.1234/pmc-example</article-id>
+      <title-group><article-title>Online Dog Study</article-title></title-group>
+      <contrib-group><contrib contrib-type="author"><name><surname>Example</surname><given-names>Ana</given-names></name></contrib></contrib-group>
+      <pub-date pub-type="epub"><day>2</day><month>6</month><year>2026</year></pub-date>
+      <abstract><p>An online full-text abstract.</p></abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec><title>Introduction</title><p>PMC body paragraph.</p>
+      <sec><title>Nested methods</title><p>Nested paragraph.</p></sec>
+    </sec>
+    <sec><title>Conclusions</title><p>PMC conclusion paragraph.</p></sec>
+  </body>
+  <back><ref-list><ref id="R1"><element-citation><article-title>Cited study</article-title><year>2020</year></element-citation></ref></ref-list></back>
+</article>

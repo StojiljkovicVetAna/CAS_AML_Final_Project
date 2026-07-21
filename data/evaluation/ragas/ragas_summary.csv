@@ -1,0 +1,5 @@
+strategy,n_questions,n_valid_faithfulness,mean_faithfulness,n_valid_llm_context_precision_with_reference,mean_llm_context_precision_with_reference,n_valid_context_recall,mean_context_recall
+classic,7,7,0.8255176307949921,7,0.8499999999824166,7,0.41233431171511664
+hyde,7,7,0.8874411302982732,7,0.8523809523650953,7,0.41364440513047324
+multi_query,7,7,0.8403550903119869,7,0.8222222222067196,7,0.301937880415324
+reranked,7,7,0.9016697588126159,7,0.8419047618898285,7,0.3749254087599952

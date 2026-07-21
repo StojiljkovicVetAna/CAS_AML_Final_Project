@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title type="main">Structured Dog Study</title></titleStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title level="a">Structured Dog Study</title>
+            <author><persName><forename>Ana</forename><surname>Example</surname></persName></author>
+            <idno type="DOI">10.1234/example</idno>
+          </analytic>
+          <monogr><title level="j">Journal of Examples</title></monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><abstract><p>A complete abstract.</p></abstract></profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div><head>Introduction</head><p>First body paragraph.</p></div>
+      <div><head>Conclusion</head><p>Final conclusion paragraph.</p></div>
+    </body>
+    <back>
+      <listBibl><biblStruct><analytic><title>Reference title</title></analytic></biblStruct></listBibl>
+    </back>
+  </text>
+</TEI>
